@@ -132,4 +132,5 @@ def amino_acid_sequence(rna):
     return sequence
 
 # Test
-print(amino_acid_sequence('GCAAGAGAUAAUUGU'))
+seq = "GCAAGAGAUAAUUGU"
+print(seq, "=", amino_acid_sequence(seq))
